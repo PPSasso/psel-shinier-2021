@@ -1,0 +1,19 @@
+$primary: black;
+
+$input-background-color: #171819;
+$input-border-color: #171819;
+$input-radius: 8px;
+$input-color: #9EA7AC;
+$input-icon-color: gray;
+$input-icon-active-color: white;
+
+$menu-item-color: #9EA7AC;
+$menu-item-active-color: #68A35D;
+$menu-item-active-background-color: transparent;
+$menu-item-hover-background-color: transparent;
+$menu-label-color: black;
+$modal-background-background-color: green;
+
+@import "~bulma/sass/utilities/_all";
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
