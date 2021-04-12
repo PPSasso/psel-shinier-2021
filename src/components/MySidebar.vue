@@ -3,7 +3,7 @@
         <section class="sidebar-layout">
             <b-sidebar 
                 fullheight="true"
-                position="fixed"
+                position="static"
                 :mobile="mobile"
                 :expand-on-hover="expandOnHover"
                 :reduce="reduce"
@@ -45,9 +45,10 @@ export default {
 .sidebar-page {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 20%;
     min-height: 100%;
-    //min-height: 100vh;
+    min-height: 100vh;
+    background-color: black;
     .sidebar-layout {
         display: flex;
         flex-direction: row;

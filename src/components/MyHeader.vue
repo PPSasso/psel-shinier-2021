@@ -64,6 +64,7 @@ export default {
         margin-top: 0%;
         height: 5rem;
         justify-content: space-between;
+        padding-left: 20px;
         
     }
 

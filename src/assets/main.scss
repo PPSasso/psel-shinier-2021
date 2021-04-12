@@ -1,18 +1,32 @@
-$primary: black;
+//Customizing Buefy root:
+    //Colors:
+    $primary: black;
+//end
 
-$input-background-color: #171819;
-$input-border-color: #171819;
-$input-radius: 8px;
-$input-color: #9EA7AC;
-$input-icon-color: gray;
-$input-icon-active-color: white;
+//Customizing Buefy input:
+    //Colors:
+    $input-background-color: #171819;
+    $input-border-color: #171819;
+    $input-color: #9EA7AC;
+    $input-icon-color: gray;
+    $input-icon-active-color: white;
 
-$menu-item-color: #9EA7AC;
-$menu-item-active-color: #68A35D;
-$menu-item-active-background-color: transparent;
-$menu-item-hover-background-color: transparent;
-$menu-label-color: black;
-$modal-background-background-color: green;
+    //Spacing:
+    $input-radius: 8px;
+//end
+
+//Customizing Buefy menu:
+    //Colors:
+    $menu-item-color: #9EA7AC;
+    $menu-item-active-color: #68A35D;
+    $menu-item-active-background-color: transparent;
+    $menu-item-hover-background-color: transparent;
+    $menu-label-color: black;
+
+    //Spacing:
+    $menu-list-link-padding: 20px;
+    $menu-list-link-margin-top: 200px;
+//end
 
 @import "~bulma/sass/utilities/_all";
 @import "~bulma";
