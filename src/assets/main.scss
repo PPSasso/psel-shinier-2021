@@ -7,9 +7,9 @@
     //Colors:
     $input-background-color: #171819;
     $input-border-color: #171819;
-    $input-color: #9EA7AC;
-    $input-icon-color: gray;
-    $input-icon-active-color: white;
+    $input-color: rgb(255, 255, 255);
+    $input-icon-color: #3d3f41;
+    $input-icon-active-color: rgb(139, 134, 134);
 
     //Spacing:
     $input-radius: 8px;
@@ -26,6 +26,21 @@
     //Spacing:
     $menu-list-link-padding: 20px;
     $menu-list-link-margin-top: 200px;
+//end
+
+//Customizing Buefy button:
+    //Colors:
+    $button-color: white;
+    $button-background-color:#68A35D;
+    $button-border-color: #68A35D;
+    $button-hover-color: white;
+    $button-hover-border-color: #68A35D;
+    $button-text-hover-color: white;
+    $button-focus-border-color: #68A35D;
+    $button-focus-color: white;
+    $button-active-border-color: #68A35D;
+    $button-active-color: rgb(202, 199, 199);
+    $button-focus-box-shadow-size: 0;
 //end
 
 @import "~bulma/sass/utilities/_all";
