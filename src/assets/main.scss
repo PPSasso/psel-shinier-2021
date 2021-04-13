@@ -43,6 +43,31 @@
     $button-focus-box-shadow-size: 0;
 //end
 
+//Customizing Buefy button:
+
+    //Unselected properties:
+    $tabs-link-color: #9EA7AC;
+    $tabs-toggle-link-border-color: #131414;
+
+    //OnClick:
+    $tabs-toggle-link-focus-active-background-color: #414D55;	
+    $tabs-toggle-link-focus-active-border-color: #131414;
+    $tabs-toggle-link-focus-background-color: #101111;
+    $tabs-toggle-link-focus-border-color: #131414;
+
+    //Selected properties:
+    $tabs-toggle-link-active-border-color: #131414;
+    $tabs-toggle-link-hover-border-color: transparent;
+    $tabs-toggle-link-active-background-color: #414D55;
+    $tabs-toggle-link-active-color: #90A1AC;
+
+    //Others:
+    $tabs-link-hover-color: #9EA7AC;
+    $tabs-toggle-link-radius: 8px;
+    $tabs-link-padding: 0.5rem 2rem;
+
+//end
+
 @import "~bulma/sass/utilities/_all";
 @import "~bulma";
 @import "~buefy/src/scss/buefy";

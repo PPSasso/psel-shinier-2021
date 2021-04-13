@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="btn-div">
-                <b-button>Novo grupo</b-button>
+                <b-button><router-link to="/createGroup">Criar grupo</router-link></b-button>
             </div>
         </div>
     </div>
@@ -44,6 +44,10 @@ export default {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
+    }
+
+    a{
+        color: white;
     }
 
     img{
