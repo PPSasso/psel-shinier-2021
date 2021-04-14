@@ -1,15 +1,17 @@
 //Customizing Buefy root:
     //Colors:
-    $primary: black;
+    $primary: #68A35D;
 //end
 
 //Customizing Buefy input:
     //Colors:
-    $input-background-color: #171819;
+    $input-background-color: #131414;
     $input-border-color: #171819;
-    $input-color: rgb(255, 255, 255);
+    $input-color: #fff, 100%;
     $input-icon-color: #3d3f41;
     $input-icon-active-color: rgb(139, 134, 134);
+
+    $input-arrow: #9EA7AC;
 
     //Spacing:
     $input-radius: 8px;
@@ -66,6 +68,17 @@
     $tabs-toggle-link-radius: 8px;
     $tabs-link-padding: 0.5rem 2rem;
 
+//end
+
+//Customizing Buefy checkbox:
+    $checkbox-active-background-color: #2662F0;
+//end
+
+//Customizing Buefy pagination:
+    $pagination-color: white;
+
+    $pagination-current-border-color:#68A35D;
+    $pagination-current-background-color: #68A35D;
 //end
 
 @import "~bulma/sass/utilities/_all";
