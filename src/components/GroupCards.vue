@@ -1,7 +1,7 @@
 <template>
     <div class="group-card">
         <div class="upper-card">
-            <h3>Super Admin</h3>
+            <h3>{{ groupName }}</h3>
             <div>
                 <span class="dot" style="background-color:#BD1B24;"></span>
                 <span class="dot" style="background-color:#FFC700;"></span>
@@ -9,7 +9,7 @@
         </div>
         <div class="lower-card">
             <div>
-                <h4>Todos os usuarios com todas as permissoes...</h4>
+                <h4>{{ groupDescription }}</h4>
                 <h5>2 hours ago</h5>
             </div>
             <div>
@@ -21,7 +21,8 @@
 
 <script>
 export default {
-    name: "GroupCards"
+    name: "GroupCards",
+    props: ["groupName", "groupDescription"]
 }
 </script>
 

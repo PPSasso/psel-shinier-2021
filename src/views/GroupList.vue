@@ -1,6 +1,7 @@
 <template>
   <div>
-    <my-header></my-header>
+    <my-header PageName="Grupos com acesso a plataforma"
+               ButtonLabel="Criar grupo"></my-header>
     <div class="flex">
       <my-sidebar></my-sidebar>
       <main-div></main-div>

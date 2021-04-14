@@ -13,7 +13,7 @@
                     <b-menu class="is-custom-mobile">
                         <b-menu-list>
                             <b-menu-item icon-pack="fas" icon="fas fa-home" label="Dashboard"></b-menu-item>
-                            <b-menu-item icon-pack="fas" icon="fas fa-users" label="Grupos"></b-menu-item>
+                            <b-menu-item icon-pack="fas" icon="fas fa-users" label="Grupos"><router-link to="/">Grupos</router-link></b-menu-item>
                             <b-menu-item icon-pack="fas" icon="fas fa-user" label="Usuarios"></b-menu-item>
                             <b-menu-item icon-pack="fas" icon="fas fa-cog" label="Sistemas"></b-menu-item>
                             <b-menu-item icon-pack="fas" icon="fas fa-network-wired" label="Categoria"></b-menu-item>
@@ -47,7 +47,7 @@ export default {
     flex-direction: column;
     width: 20%;
     min-height: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     background-color: black;
     .sidebar-layout {
         display: flex;

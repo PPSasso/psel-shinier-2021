@@ -11,7 +11,7 @@
                         icon="search">
                     </b-input>
                 </b-field>
-                <h1>Grupos com acesso a plataforma</h1>
+                <h1>{{ PageName }}</h1>
             </div>
         </div>
         <div>
@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="btn-div">
-                <b-button><router-link to="/createGroup">Criar grupo</router-link></b-button>
+                <b-button><router-link to="/create">{{ ButtonLabel }}</router-link></b-button>
             </div>
         </div>
     </div>
@@ -32,7 +32,8 @@
 
 <script>
 export default {
-    name: "MyHeader"
+    name: "MyHeader",
+    props: ["PageName", "ButtonLabel"]
 }
 </script>
 

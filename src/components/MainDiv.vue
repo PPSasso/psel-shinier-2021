@@ -24,10 +24,32 @@
         </section>
         <section>
             <div class="cards">
-                <group-cards></group-cards>    
-                <group-cards></group-cards>     
+                <group-cards groupName="Super Admin"    
+                             groupDescription="Todos os usuarios com todas as permissoes..."
+                             >
+                </group-cards>    
+                <group-cards groupName="Técnicos"    
+                             groupDescription="Todos os usuarios que sao desenvovedores..."
+                             >
+                </group-cards>    
             </div>
         </section>
+        <div class="pag">
+            <nav class="pagination is-small is-right" role="navigation" aria-label="pagination">
+                <ul class="pagination-list">
+                    <li> <a class="pagination-link is-current"><i class="fas fa-angle-left"></i></a></li>
+                    <li> <a class="pagination-link is-current"><i class="fas fa-angle-double-left"></i></a></li>
+                    <li><a class="pagination-link is-current" aria-label="Goto page 1">1</a></li>
+                    <li><a class="pagination-link is-current" aria-label="Goto page 2">2</a></li>
+                    <li><a class="pagination-link is-current" aria-label="Page 3" aria-current="page">3</a></li>
+                    <li><a class="pagination-link is-current" aria-label="Goto page 5">5</a></li>
+                    <li><span class="pagination-ellipsis">&hellip;</span></li>
+                    <li><a class="pagination-link is-current" aria-label="Goto page 20">20</a></li>
+                    <li><a class="pagination-link is-current"><i class="fas fa-angle-right"></i></a></li>
+                    <li><a class="pagination-link is-current"><i class="fas fa-angle-double-right"></i></a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </template>
 
@@ -38,7 +60,7 @@ export default {
     name: "MainDiv",
     components:{
         GroupCards
-    }
+    },
 }
 </script>
 
@@ -60,7 +82,7 @@ export default {
     }
 
     .main-box{
-        height: 580px;
+        height: 700px;
         width: 1110px;
         padding: 26px;
         margin-left: 13rem;
@@ -98,6 +120,12 @@ export default {
     .cards{
         display: flex;
         justify-content: space-evenly;
+    }
+
+    .pag{
+        margin-top: 400px;
+        position: relative;
+        right: -10px;
     }
 
 </style>
